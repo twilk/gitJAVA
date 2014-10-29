@@ -1,15 +1,7 @@
 package com.example.servletjspdemo.domain;
 
 public class Osoba {
-	/*
-	"<p>Imie: " + podaneImie + "<br />" +
-	"<p>Nazwisko: " + podaneNazwisko + "<br />" +
-	"<p>Plec: " + podanaPlec + "<br />" +
-	"<p>Hobby: " + podaneHobby + "<br />" +
-	"<p>Opis: " + podanyOpis + "<br />" +
-	"<p>Wyksztalcenie: " + podaneWyksztalcenie + "<br />" +
-	"<p>Prawo jazdy: " + podanePrawko + "<br />" +
-	*/
+
 	private String imie = "nieznane";
 	private String nazwisko = "nieznane";
 	private String plec = "nieznane";

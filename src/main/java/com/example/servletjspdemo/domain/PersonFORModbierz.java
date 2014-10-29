@@ -21,6 +21,13 @@ public class PersonFORModbierz extends HttpServlet {
 		response.setContentType("text/html");
 		
 		PrintWriter out = response.getWriter();
+		if(request.getSession().getAttribute("mojaOsoba") == null){
+			request.getSession().setAttribute("mojaOsoba",new Osoba());	
+			//writer.print("<br/>test<br/>");
+		}	
+		
+		Osoba osoba = (Osoba) request.getSession().getAttribute("mojaOsoba");
+		
 		
 		
 		String podaneImie = "";
